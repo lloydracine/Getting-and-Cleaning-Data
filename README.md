@@ -16,5 +16,3 @@ Run the script run_analysis.R. The script produces a single output file, tidyDat
 #### References
 
 [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-
-The result of the execution is that a `tidy.csv` file is being created, that stores the data (mean and standard deviation of each measurement per activity&subject) for later analysis.
