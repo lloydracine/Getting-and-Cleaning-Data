@@ -57,7 +57,7 @@ allData <- rbind(trainData,testData)
 
 #### Extract only the measurements on the mean and standard deviation for each measurement
 
-`mean()` and `sd()` are applied to `allData` via `sapply()` to extract the requested measurements.
+mean() and sd() are applied to "allData" via sapply() to extract the disired measurements.
 
 ```
 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -69,7 +69,7 @@ View(allData_mean)
 
 #### Appropriately label the data set with descriptive variable names. 
 
-Each data frame of the data set is labeled - using the `features.txt` - with the information about the variables used on the feature vector. The `Activity` and `Subject` columns are also named properly.
+Each data frame of the data set is labeled - using "features.txt" - with the information about the variables used on the feature vector. The "Activity" and "Subject" columns are also named properly.
 
 ```
 # 4. Appropriately label the data set with descriptive variable names. 
@@ -82,8 +82,8 @@ rm(features)
 
 #### Uses descriptive activity names to name the activities in the data set
 
-The class labels linked with their activity names are loaded from the `activity_labels.txt` file. The numbers of the 
-`allData` data frame is replaced by those names:
+The class labels linked with their activity names are loaded from the "activity_labels.txt" file. The numbers of the 
+"allData" data frame is replaced by those names:
 
 ```
 # 3. Uses descriptive activity names to name the activities in the data setactivities <- read.table("activity_labels.txt",colClasses = "character")
@@ -95,7 +95,7 @@ rm(activities)
 
 #### Creates a second, independent tidy data set with the average of each variable for each subject and activity.
 
-The data.table library is loaded and used to create a `tidy` data table with the average of each measurement per subject/activity combination. The new dataset is saved in `tidyData.csv` file.
+The data.table library is loaded and used to create a "tidy" data table with the average of each measurement per "subject" / "activity" combination. The new dataset is saved in "tidyData.csv" file.
 
 ```
 # 5. From the data set in step 4, creates a second, independent tidy data set 
