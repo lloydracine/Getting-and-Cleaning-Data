@@ -6,7 +6,7 @@ This file describes the data, the variables, and the work that has been performe
 
 If the zip file "UCI HAR Dataset.zip" does not already exist in the working directory it is downloaded from the url provided on the Course Project page.
 
-If the data directory "UCI HAR Dataset" does not exist  in the working directory it "UCI HAR Dataset.zip" is unzipped.
+If the data directory "UCI HAR Dataset" does not exist in the working directory "UCI HAR Dataset.zip" is unzipped.
 
 ```
 ### a. Download zip file containing data (if file doesn't already exist in currect working directory)
