@@ -114,7 +114,7 @@ write.table(tidyData,file="tidyData.csv",sep=",",row.names = FALSE)
 rm(DT)
 ```
 
-### All data loaded removed from R
+### All loaded data is removed
 
 ```
 # Remove all initial and intermidiate data from
