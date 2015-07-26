@@ -25,7 +25,7 @@ if (!file.exists("UCI HAR Dataset")) {
 setwd("UCI HAR Dataset")
 ```
 
-`read.table` is used to load the data to R environment for both the test and training data.  Both the test data tables and training data tables are checked to make sure they contain the same number of rows.
+read.table is used to load the data to R environment for both the test and training data.  Both the test data tables and training data tables are checked to make sure they contain the same number of rows.
 
 ```
 ### c. Load test and training data
@@ -46,7 +46,7 @@ if ( nrow(trainData_act) != nrow(trainData) || nrow(trainData_sub) != nrow(train
 
 #### Merge test and training sets into one data set, including the subjects and activities
 
-The `Subject` and  `Activity` columns are appended to the test and train data frames, and then are both merged in the `allData` data frame.
+The "Subject" and  "Activity" columns are appended to the test and train data frames, and then are both merged in the "allData" data frame.
 
 ```
 ### d. Merge data
